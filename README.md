@@ -212,3 +212,19 @@ python3 --version
 
 - `Ctrl` + `` ` `` (backtick key below `Esc`)
 
+## Web Services (Problem 7.1–7.5) in NetBeans 8 + JDK 8
+
+Ready-to-open NetBeans Maven projects are included here:
+
+- `WebServices_7x_JDK8_NetBeans8/DS7_Producer` (Producer / REST service)
+- `WebServices_7x_JDK8_NetBeans8/DS7_Consumer` (Consumer / client)
+
+Producer base URL: `http://localhost:5000/`
+
+Endpoints:
+
+- 7.1: `GET /calc?a=10&b=4&op=add`
+- 7.2: `GET /si?p=1000&r=5&t=2`
+- 7.3: `GET /hello?name=Alice`
+- 7.4/7.5: `GET /miles_to_km?miles=10`
+
